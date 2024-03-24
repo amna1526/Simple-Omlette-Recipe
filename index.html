@@ -14,21 +14,21 @@
   <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
   <body>
     <main>
-      <div id="recipe-card" class="outfit" >
-          <img src="image/image-omelette.jpeg" alt="Delicious omelette on a plate" id="omlette-pic" > 
-          <div id="text" >
+      <div class="recipe-card outfit" >
+          <img src="image/image-omelette.jpeg" alt="Delicious omelette on a plate" class="omlette-pic" > 
+          <div class="text" >
               <h1 class="young-serif">Simple Omelette Recipe</h1>
               <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
               to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
-              <div id="prep-time" >
-                  <h2>Preparation time</h2>
+              <div class="prep-time" >
+                  <h3>Preparation time</h3>
                   <ul>
-                      <li><span class="list-heading">Total:</span> Approximately 10 minutes</li>
-                      <li><span class="list-heading">Preparation:</span> 5 minutes</li>
-                      <li><span class="list-heading">Cooking:</span> 5 minutes</li>
+                      <li><b>Total:</b> Approximately 10 minutes</li>
+                      <li><b>Preparation:</b> 5 minutes</li>
+                      <li><b>Cooking:</b> 5 minutes</li>
                   </ul>
               </div>
-              <h3 class="young-serif">Ingredients</h3>
+              <h2 class="young-serif">Ingredients</h2>
               <ul>
                   <li>2-3 large eggs</li>
                   <li>Salt, to taste</li>
@@ -37,7 +37,7 @@
                   <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
               </ul>
               <hr>
-              <h3 class="young-serif">Instructions</h3> 
+              <h2 class="young-serif">Instructions</h2> 
               <ol>
                 <li><span class="list-heading">Beat the eggs:</span> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
                   You can add a tablespoon of water or milk for a fluffier texture.</li>
@@ -51,22 +51,35 @@
                 <li><span class="list-heading">Enjoy:</span> Serve hot, with additional salt and pepper if needed.</li>
               </ol>
               <hr>
-              <h3 class="young-serif">Nutrition</h3>
+              <h2 class="young-serif">Nutrition</h2>
               <p>The table below shows nutritional values per serving without the additional fillings.</p>
-              <p> <span class="macromolecule">Calories</span> <span class="cal-count">277kcal</span> </p>
-              <hr>
-              <p><span class="macromolecule">Carbs</span><span class="cal-count"> 0g</span></p>
-              <hr>
-              <p><span class="macromolecule">Protein</span> <span class="cal-count">20g</span></p>
-              <hr>
-              <p><span class="macromolecule">Fat</span> <span class="cal-count">22g</span></p>
-              
+             <table>
+                <tbody>
+                  <tr>
+                    <td>Calories</td>
+                    <td class="cal">277kcal</td>
+                  </tr>
+                  <tr>
+                    <td>Carbs</td>
+                    <td class="cal">Og</td>
+                  </tr>
+                  <tr>
+                    <td>Protein</td>
+                    <td class="cal">20g</td>
+                  </tr>
+                  <tr>
+                    <td>Fat</td>
+                    <td class="cal">22g</td>
+                  </tr>
+                </tbody>
+             </table>
           </div>
         </div>
-  
+  </main>
+  <footer>
    <div class="attribution"> 
     Coded by <a href="https://www.frontendmentor.io/profile/amna1526">Amna Nasir</a>
    </div>
- </main>
+  </footer>
 </body>
 </html>

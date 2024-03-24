@@ -19,43 +19,40 @@
     min-height: 100vh;
   }
 
-  #recipe-card {
+  .recipe-card {
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
-    width: 650px;
+    max-width: 41rem;
     text-align: left;
     padding: 35px 35px;
     margin: 100px auto;
-    font-size: 16px;
+    font-size: 1rem;
+    line-height: 2;
   }
 
-  #omlette-pic {
+  .omlette-pic {
     width: 100%;
     border-radius: 10px;
   }
 
   h1 {
     color: hsl(24, 5%, 18%);
-    font-size: 30px;
-  }
-
-  h3 {
-    color:  hsl(14, 45%, 36%);
-    font-size: 25px;
+    font-size: 2.5rem;
   }
 
   h2 {
+    color:  hsl(14, 45%, 36%);
+    font-size: 1.8rem;
+  }
+
+  h3 {
     color:  hsl(332, 51%, 32%);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
   }
 
-  .list-heading {
-    color: hsl(30, 10%, 34%);
-    font-weight: bold;
-  }
 
-  #prep-time {
+  .prep-time {
     background-color: hsl(330, 100%, 98%);
     padding: 20px;
     border-radius: 8px;
@@ -76,27 +73,32 @@
     border-top: 1px solid hsl(30, 18%, 87%);
   }
 
-  #macromolecule {
-    margin-left: 20px; 
-  }
-  .cal-count {
-    color: hsl(14, 45%, 36%);
-    font-weight: bold;
-    margin-left: 290px;
-  }
-
   .attribution {
     text-align: center;
   }
 
   a {
     color: hsl(30, 10%, 34%);
-    text-decoration: none;
   }
 
   a:hover {
-    font-size: 18px;
+    font-size: 1.2rem;
     color: hsl(24, 5%, 18%);
   }
 
-  
+  td {
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    padding-right: 15rem;
+    color: hsl(30, 10%, 34%);
+  }
+
+  .cal {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+  }
+
+  tr {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+  }
